@@ -49,27 +49,28 @@ The application is built using a **component-based architecture** in React with 
 ---
 
 ## 📂 Project Structure
+
+```bash
 src/
-│
 ├── components/
-│ ├── balanceChart/
-│ ├── categoryChart/
-│ ├── insights/
-│ ├── sidebar/
-│ ├── summaryCards/
-│ ├── topbar/
-│ ├── transactionFilters/
-│ ├── transactions/
-│ ├── transactionTable/
+│   ├── balanceChart/
+│   ├── categoryChart/
+│   ├── insights/
+│   ├── sidebar/
+│   ├── summaryCards/
+│   ├── topbar/
+│   ├── transactionFilters/
+│   ├── transactions/
+│   ├── transactionTable/
 │
 ├── data/
-│ └── transactions.js
+│   └── transactions.js
 │
 ├── utils/
-│ └── insight.js
-│ └── finance.js
+│   ├── insight.js
+│   └── finance.js
 │
 ├── pages/
-| └── dashboard/
+│   └── dashboard/
 │
 └── App.js
