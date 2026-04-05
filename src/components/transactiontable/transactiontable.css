@@ -1,0 +1,116 @@
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.table-container th,
+.table-container td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.table-container tbody tr:hover {
+    background-color: #2f6fed;
+    transition: background 0.2s ease;
+}
+
+.changeInput,
+.changeInputSec {
+    border: 1px solid white;
+    background-color: black;
+    color: #fff;
+}
+
+.changeInput:hover,
+.changeInputSec:hover,
+.changeInput:focus,
+.changeInputSec:focus {
+    background-color: black;
+    color: #fff;
+}
+
+.income {
+    font-weight: 500;
+}
+
+.btn-save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.changeInputbtn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    padding: 5px 10px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table-container {
+        table-layout: fixed;
+    }
+
+    .table-container th,
+    .table-container td {
+        padding: 8px;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .table-container input,
+    .table-container select {
+        width: 100%;
+        max-width: 100%;
+        font-size: 11px;
+        padding: 4px;
+        box-sizing: border-box;
+    }
+
+    .edit-btn {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    .btn-save {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .table-container input {
+        padding: 3px;
+        font-size: 10px;
+    }
+
+    .table-container input[type="date"] {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        font-size: 10px;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+    .changeInput,
+    .changeInputSec {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

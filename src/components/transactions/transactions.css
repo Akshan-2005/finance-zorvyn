@@ -1,0 +1,7 @@
+.transactions-container {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,95 @@
+.insight-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.insight-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.max-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    min-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.max-card h3,
+.in-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.max-card p,
+.in-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f6fed;
+}
+
+.in-card {
+    border: 1px solid white;
+    min-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.insight-list {
+    background: #1a1a1a;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.insight-list h3 {
+    font-size: 20px;
+}
+
+.insight-list p {
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .insight-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .max-card,
+    .in-card {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .max-card h3,
+    .in-card h3 {
+        font-size: 18px;
+    }
+
+    .max-card p,
+    .in-card p{
+        font-size: 20px;
+    }
+
+
+    .insight-list p{
+        font-size: 16px;
+    }
+
+    .insight-list h3{
+        font-size: 20px;
+    }
+}

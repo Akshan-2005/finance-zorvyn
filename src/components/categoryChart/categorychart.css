@@ -1,0 +1,10 @@
+.categorychart-container {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.categorychart-container h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
